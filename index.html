@@ -254,6 +254,9 @@
             width:83vw;
             margin-left:50px;
         }
+        .navbar-toggler {
+            display:none !important;
+        }
         @media (max-width:600px) {
 
             .home-container {
@@ -332,6 +335,9 @@
         }
         .skills-section {
             padding:0px !important;
+        }
+        .navbar-toggler {
+            display:block !important;
         }
         }
     </style>
@@ -480,6 +486,13 @@
             </li>
         </ul>
     </div>
+    <div class="expereience" id="experienceContainer">
+        <p style="color:white;font-size:27px;font-weight:bold;font-family:Roboto" class="exp-role">Python Developer</p>
+        <p style="color:white;font-size:27px;font-weight:bold;font-family:Roboto;line-height: 3px;">Celebal Technologies</p>
+        <p style="color:white;font-size:20px;font-family:Roboto;line-height: 0%">Jaipur</p>
+        <p style="color:white;font-size:20px;font-family:Roboto;">2023 Feb - 2023 Jul</p>
+        <p style="color:white;font-size:18px;font-family:Roboto;">Python Developer with a strong foundation in Data Structures and Algorithms. Experienced in designing efficient, optimized solutions to complex problems using core concepts such as arrays, linked lists, trees, graphs, stacks, queues, heaps, and hash maps. Proficient in algorithmic paradigms including recursion, backtracking, dynamic programming, divide and conquer, and greedy techniques. Adept at translating real-world problems into clean, scalable Python code, with a focus on performance and readability. Passionate about writing efficient code and continuously improving through hands-on problem solving and competitive programming.</p>
+    </div>
 
     <div class = "skills-section" id="skillsSection">
         <p class="skills">Skills</p>
@@ -563,6 +576,15 @@
                     <p class = "skill-name">Bootstrap</p>
                     <p class = "skill-description">
                         Proficient in Bootstrap, skilled in building responsive, mobile-first web designs with prebuilt components and customizable frameworks.
+                    </p>
+                </div>
+            </div>
+            <div class = "skill-card">
+                <img class = "skill-img" src="data:image/jpeg;base64,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" />
+                <div class = "skill-card-description">
+                    <p class = "skill-name">AWS</p>
+                    <p class = "skill-description">
+                        Proficient in AWS services including EC2, IAM, Lambda, S3, and VPC.
                     </p>
                 </div>
             </div>
@@ -786,14 +808,3 @@
     </div>
 </body>
 </html>
-
-
-<!-- <div class = "personal-project-card">
-    <img class="personal-project-img" src="" />
-    <div class = "personal-project-description">
-        <p class = "personal-project-name">Min Tri Path</p>
-        <p class = "personal-project-description-info">
-        </p>
-        <a class = "personal-view-btn" href="" target="_blank">View</a>
-    </div>
-</div> -->
